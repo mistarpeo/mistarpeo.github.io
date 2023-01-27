@@ -1,18 +1,10 @@
 ---
 layout: page
-title: About
+title: 저는 이런 사람입니다.
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+저는 개발자입니다.
+이 말을 늘 자신있게 하고 싶은 비전공 출신 개발자로 성장하고 있는 
+자주 넘어지지만 그래도 기어서라도 가려고 합니다.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
