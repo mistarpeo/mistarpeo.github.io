@@ -19,28 +19,20 @@
 # in the templates via {{ site.myvariable }}.
 
 title: 성근 해보자!
-email: mistarpeo@gmail.com
+#email: mistarpeo@gmail.com
+author: 조성근
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  하나라도 남기고 가려고 쓰는 블로그
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: mistarpeo
+url: "https://mistarpeo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: mistarpeo
 github_username:  mistarpeo
-
+lang: "ko"
+timezone: Asia/Seoul
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
-
-
-defaults:
-  - scope:
-      path: "assets/img"
-    values:
-      image: true
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
