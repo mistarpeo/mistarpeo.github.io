@@ -18,21 +18,59 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 성근 해보자!
+title: "성근! 해보자!"
 #email: mistarpeo@gmail.com
-author: 조성근
-description: >- # this means to ignore newlines until "baseurl:"
-  하나라도 남기고 가려고 쓰는 블로그
+name: "I am"
+author: "조성근"
+description: "개발자인지 확인해려고 시작하는 블로그입니다.">- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mistarpeo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: mistarpeo
 github_username:  mistarpeo
 lang: "ko"
+
+permalink: /:categories/:title/
+paginate: 5
+paginate_path:
 timezone: Asia/Seoul
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mistarpeo"
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # 블로그 댓글 기능 true
+      share: true
+      related: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
